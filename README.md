@@ -13,7 +13,7 @@
 
 * catkin_ws/src: ``` git clone https://github.com/congtranv/drone_aruco_landing.git ```
 * catkin_ws/src/drone_aruco_landing: ```./installAshets.sh /path/to/PX4/Firmware```
-* Add `/path/to/PX4/Firmware` to the file `uav_mavros_simulation/launch/uav_launch.launch` at `firm_dir`
+* Add `/path/to/PX4/Firmware` to the file `drone_aruco_landing/launch/uav_launch.launch` at `firm_dir`
 * ```catkin build```
 * ```source catkin_ws/devel/setup.bash```
 * ``` roslaunch drone_aruco_landing uav_launch.launch world:=aruco vehicle:=iris_fpv_cam sdf:=iris_fpv_down_cam ```
