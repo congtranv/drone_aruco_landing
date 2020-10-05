@@ -88,7 +88,7 @@ class MarkerDetector:
             markerSize = 2.0
             axisLength = 3.0
 
-            rvecs, tvecs, _ = cv.aruco.estimatePoseSingleMarkers( markerCorners, markerSize, self.K, self.distCoeffs)
+            rvecs, tvecs, _ = cv.aruco.estimatePoseSingleMarkers(markerCorners, markerSize, self.K, self.distCoeffs)
             
             # Draw the axis on the marker
             frame_out = cv.aruco.drawAxis( img, self.K, self.distCoeffs, rvecs, tvecs, axisLength)

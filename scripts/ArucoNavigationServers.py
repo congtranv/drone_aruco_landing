@@ -9,7 +9,7 @@ from cv_bridge import CvBridge, CvBridgeError
 from nav_msgs.msg import Odometry
 from mavros_msgs.msg import PositionTarget as PT
 from geometry_msgs.msg import Vector3, TwistStamped
-from uav_mavros_simulation.srv import goto_aruco, goto_arucoResponse, land_aruco, land_arucoResponse
+from drone_aruco_landing.srv import goto_aruco, goto_arucoResponse, land_aruco, land_arucoResponse
 from std_msgs.msg import Float32
 from tf import transformations as tr
 import mavros_msgs.msg

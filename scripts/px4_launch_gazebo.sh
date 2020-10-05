@@ -8,7 +8,7 @@ export PX4_HOME_ALT=7.4000000
 # Source the PX4 Firmware directory
 if [ -z "$1" ]; then
 # change this to a location of your firmware! 
-FIRMDIR="/home/antony/Documents/Git/Firmware"
+FIRMDIR="/home/congtranv/ros/px4/Firmware"
 else
 FIRMDIR=$1
 fi

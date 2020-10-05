@@ -9,7 +9,7 @@ import mavros.command
 import mavros_msgs.msg
 import mavros_msgs.srv
 from sensor_msgs.msg import NavSatFix
-from uav_mavros_simulation.srv import target_global_pos, target_global_posResponse, target_local_pos, target_local_posResponse 
+from drone_aruco_landing.srv import target_global_pos, target_global_posResponse, target_local_pos, target_local_posResponse 
 from mavros import setpoint as SP
 from mavros_msgs.msg import GlobalPositionTarget as GPT
 import sys

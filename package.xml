@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <package format="2">
-  <name>uav_mavros_simulation</name>
+  <name>drone_aruco_landing</name>
   <version>0.0.0</version>
   <description>The uav_mavros_simulation package</description>
 
